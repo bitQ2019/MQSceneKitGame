@@ -15,6 +15,8 @@
 		0E9A32FF19F80C8100536DF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A32FE19F80C8100536DF2 /* Images.xcassets */; };
 		0E9A330219F80C8100536DF2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A330019F80C8100536DF2 /* LaunchScreen.xib */; };
 		0E9A330E19F80C8100536DF2 /* MQSceneKitGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9A330D19F80C8100536DF2 /* MQSceneKitGameTests.m */; };
+		0E9A331919F80D8000536DF2 /* MyParticleSystem.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A331719F80D8000536DF2 /* MyParticleSystem.scnp */; };
+		0E9A331A19F80D8000536DF2 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A331819F80D8000536DF2 /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		0E9A330719F80C8100536DF2 /* MQSceneKitGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQSceneKitGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E9A330C19F80C8100536DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E9A330D19F80C8100536DF2 /* MQSceneKitGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQSceneKitGameTests.m; sourceTree = "<group>"; };
+		0E9A331719F80D8000536DF2 /* MyParticleSystem.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; name = MyParticleSystem.scnp; path = ../MyParticleSystem.scnp; sourceTree = "<group>"; };
+		0E9A331819F80D8000536DF2 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = ../spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 		0E9A32EE19F80C8000536DF2 /* MQSceneKitGame */ = {
 			isa = PBXGroup;
 			children = (
+				0E9A331719F80D8000536DF2 /* MyParticleSystem.scnp */,
+				0E9A331819F80D8000536DF2 /* spark.png */,
 				0E9A32F319F80C8000536DF2 /* AppDelegate.h */,
 				0E9A32F419F80C8000536DF2 /* AppDelegate.m */,
 				0E9A32F619F80C8000536DF2 /* art.scnassets */,
@@ -203,7 +209,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E9A330219F80C8100536DF2 /* LaunchScreen.xib in Resources */,
+				0E9A331A19F80D8000536DF2 /* spark.png in Resources */,
 				0E9A32FF19F80C8100536DF2 /* Images.xcassets in Resources */,
+				0E9A331919F80D8000536DF2 /* MyParticleSystem.scnp in Resources */,
 				0E9A32F719F80C8000536DF2 /* art.scnassets in Resources */,
 				0E9A32FD19F80C8100536DF2 /* Main.storyboard in Resources */,
 			);
